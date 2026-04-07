@@ -1,19 +1,50 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lellco On-Site Checklist</title>
-    <meta name="theme-color" content="#2e3b2f" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Lellco" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+# Lellco On-Site Checklist App
+
+A mobile-friendly React app for on-site assessment, package recommendation, completion sign-off, job photo capture, local save/load, PDF export, and an agent summary screen.
+
+## Quick local run
+1. Install Node.js 18+
+2. Open this folder in a terminal
+3. Run:
+   npm install
+   npm run dev
+
+## Deploy on Vercel
+1. Create a free Vercel account
+2. Create a new GitHub repo and upload these files, or drag the folder into Vercel
+3. Framework preset: Vite
+4. Build command: npm run build
+5. Output directory: dist
+
+## What this app does
+- Tap-to-check issue assessment
+- Auto package recommendation
+- Agent summary wording
+- Before-start and completion sign-off
+- Photo upload/capture
+- Save/load jobs in browser storage
+- Print-friendly PDF export
+
+## Notes
+- Saved jobs stay on the device/browser that created them
+- PDF export opens the browser print dialog
+- Camera capture support depends on the phone/browser
+
+## Branded production additions
+- Lellco-branded colour palette
+- Home screen install manifest
+- Home screen and Apple touch icons
+- Install guidance inside the app
+
+## After deployment
+- Open the site on your phone
+- iPhone: Share > Add to Home Screen
+- Android Chrome: Menu > Install app or Add to Home screen
+
+
+## Weekly scoreboard added
+- Added Weekly Scoreboard tab
+- Editable targets and actuals
+- Auto KPI calculations
+- Traffic-light status indicators
+- Save/load weekly history in browser storage
