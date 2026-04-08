@@ -48,3 +48,18 @@ A mobile-friendly React app for on-site assessment, package recommendation, comp
 - Auto KPI calculations
 - Traffic-light status indicators
 - Save/load weekly history in browser storage
+
+
+## Case study + WordPress publish added
+- Added Case Study tab
+- Builds website-ready case study HTML from each job
+- Can copy HTML for manual use
+- Direct publish to WordPress via /api/publish-case-study
+- Requires Vercel environment variables: WP_BASE_URL, WP_USERNAME, WP_APP_PASSWORD
+
+
+## Checklist reintegrated
+- Added Checklist tab back into the field app
+- Assessment issues now auto-feed issue count and package recommendation
+- Completion workflow, before-start checks, and post-job checks restored
+- Case study builder now also uses assessment findings
